@@ -1,27 +1,36 @@
 PODS:
-  - Cache (5.2.0)
-  - Imaginary (4.2.0):
+  - Cache (5.3.0)
+  - Imaginary (5.0.1):
     - Cache (~> 5.0)
-  - Lightbox (2.2.0):
-    - Imaginary (~> 4.0)
-
-DEPENDENCIES:
-  - Lightbox (from `../../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Cache
+  - Lightbox (5.0.0):
     - Imaginary
 
+DEPENDENCIES:
+  - Cache (from `https://github.com/systembugtj/Cache.git`)
+  - Imaginary (from `https://github.com/systembugtj/Imaginary.git`)
+  - Lightbox (from `../../`)
+
 EXTERNAL SOURCES:
+  Cache:
+    :git: https://github.com/systembugtj/Cache.git
+  Imaginary:
+    :git: https://github.com/systembugtj/Imaginary.git
   Lightbox:
     :path: "../../"
 
+CHECKOUT OPTIONS:
+  Cache:
+    :commit: d2fb0c1d69b5e2d845b7fe1bcef3a9a70fd52341
+    :git: https://github.com/systembugtj/Cache.git
+  Imaginary:
+    :commit: 600adeaab9b7979922cdf2170b37f186590577b3
+    :git: https://github.com/systembugtj/Imaginary.git
+
 SPEC CHECKSUMS:
-  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
-  Imaginary: dae33d06dbc2ada22f98afef5eb45cc061311a2c
-  Lightbox: af4d61903506aa3151a314daa853f7cb3ad39301
+  Cache: b3f230a4e2e30e13b52863eb3539794fcc5e1995
+  Imaginary: afe0d00925db2041e4c08e285b106a48f2390933
+  Lightbox: 611fb47d3a59913603c1f10210e34e7bc2ee0834
 
-PODFILE CHECKSUM: 408ae3477507a1d4b7ff06ffb3f162eda443424f
+PODFILE CHECKSUM: b90896ae98295146557f05cb28e89ffee8fac7ae
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.7.5
